@@ -1,0 +1,16 @@
+Modelo,Accuracy,F1-score,ROC-AUC,Tiempo (s)
+Voting(soft: knn+mlp+ridge),0.8149,0.898,0.6711,2.15
+AdaBoost,0.8149,0.898,0.6683,2.27
+RidgeClassifier,0.8149,0.898,0.662,0.01
+GradientBoosting(best),0.8149,0.8979,0.6799,1.21
+Bagging(DecisionTree),0.8094,0.8938,0.6471,6.03
+ExtraTrees,0.8083,0.8929,0.635,1.4
+HistGradientBoosting,0.8062,0.8911,0.6597,1.12
+RandomForest(best),0.8027,0.8893,0.6449,15.06
+KNN,0.7895,0.8797,0.5998,0.14
+MLPClassifier,0.7895,0.8793,0.6444,8.65
+Decision Tree,0.7189,0.8278,0.5315,0.03
+SVC (RBF),0.6068,0.7111,0.6674,8.63
+Logistic Regression,0.5814,0.6862,0.6628,0.05
+"Blending(knn,mlp,ridge -> LR)",0.5457,0.6454,0.6671,1.74
+Naive Bayes,0.2716,0.205,0.6345,0.02
